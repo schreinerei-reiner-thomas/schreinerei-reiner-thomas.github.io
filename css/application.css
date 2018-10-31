@@ -1,0 +1,40 @@
+#landing-page {
+  background-color: #eee;
+  background: url('https://picsum.photos/1600/1200?image=491') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#landing-page.ios-attachment-fix {
+  background-attachment: scroll;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("/fonts/futura.otf");
+}
+
+body {
+  font-family: "Futura";
+}
+
+.card {
+  box-shadow: none;
+}
+
+.is-fullheight {
+  min-height: 100vh;
+}
+
+.modal-card {
+  width: 80%;
+}
+
+#contact .table td {
+  border: 0;
+}
+
+.navbar-end a.is-active {
+  /* background-color: #fafafa !important; */
+  text-decoration: underline;
+}
